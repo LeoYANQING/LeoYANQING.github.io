@@ -11,54 +11,41 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Computer Science**, The University of Hong Kong, 2026 - present
+* **M.Sc. in Computer Science**, The University of Hong Kong, 2024 - 2025
+  * Supervisor: Prof. Grantham Pang
+* **B.S. in Electrical Engineering and Automation**, Soochow University, 2020 - 2024
+  * Supervisor: Prof. Lu Bo
+  * GPA: 3.7/4.0
 
-Work experience
+Work & Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Research Assistant**, Tongji CDI, 2025.12 - 2026.01
+* **Software Engineer (Intern)**, Tab Next Limited, Hong Kong, 2025.05 - 2025.09
+  * Developed medical AI chatbot system for imaging centers
+  * Designed triangular LLM supervision architecture (~99% accuracy)
+* **Research Assistant**, HKU EEE, 2025.01 - 2025.06
+  * Multimodal blood pressure estimation from PPG and ECG signals (UAT-NET)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Research Interests
+======
+* 3D surgical scene reconstruction (NeRF, 3DGS)
+* Multimodal medical AI
+* LLM agent systems and RAG
+* Spatial transcriptomics / computational biology
+* Embodied intelligence
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Languages**: Python, C++
+* **Deep Learning**: PyTorch, TensorFlow/Keras
+* **3D Vision**: NeRF, 3DGS, SLAM
+* **LLM/Agent**: RAG, LangChain, Agent frameworks, MCP
+* **Hardware**: STM32, Keil
+* **Tools**: Docker, Git, Linux
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

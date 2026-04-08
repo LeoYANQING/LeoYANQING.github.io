@@ -1,36 +1,31 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research"
 permalink: /publications/
 author_profile: true
 ---
+
+{% include base_path %}
+
+<h2>Research Interests</h2>
+
+<p>My research focuses on building 3D perception and understanding systems for surgical scenarios, capable of handling dynamic tissue, strong reflections, blood occlusion, smoke interference, and complex lighting conditions.</p>
+
+<ul>
+  <li><strong>3D Surgical Scene Analysis</strong>: NeRF/3DGS-based reconstruction and rendering for endoscopic surgery</li>
+  <li><strong>Multimodal Medical AI</strong>: Attention-based physiological signal processing (PPG, ECG)</li>
+  <li><strong>AI Agent Systems</strong>: LLM-powered frameworks, RAG, and tool-calling architectures</li>
+  <li><strong>Spatial Omics</strong>: Computational methods for spatial transcriptomics</li>
+</ul>
+
+<h2>Publications</h2>
+
+<p><em>Publications in preparation. Check back soon.</em></p>
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
