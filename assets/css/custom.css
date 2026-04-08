@@ -1,0 +1,119 @@
+/* Project row layout - inspired by boyuan.space */
+.project-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.project-row:last-child {
+  border-bottom: none;
+}
+
+.project-row .project-img {
+  flex: 0 0 320px;
+  max-width: 320px;
+}
+
+.project-row .project-img img {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.project-row .project-img iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
+  border: none;
+}
+
+.project-row .project-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-row .project-text h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 1.1em;
+}
+
+.project-row .project-text .project-meta {
+  color: #666;
+  font-size: 0.85em;
+  margin-bottom: 8px;
+}
+
+.project-row .project-text p {
+  margin-bottom: 6px;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.project-row .project-text .project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.project-row .project-text .project-tags span {
+  background: #f0f4f8;
+  color: #444;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.78em;
+}
+
+.project-row .project-text a.project-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.85em;
+  color: #2962ff;
+  text-decoration: none;
+}
+
+.project-row .project-text a.project-link:hover {
+  text-decoration: underline;
+}
+
+/* News list */
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li {
+  padding: 6px 0;
+  font-size: 0.95em;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.news-list li strong {
+  color: #333;
+  margin-right: 8px;
+}
+
+/* Section headers */
+.section-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-row {
+    flex-direction: column;
+  }
+  .project-row .project-img {
+    flex: none;
+    max-width: 100%;
+  }
+}
