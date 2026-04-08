@@ -11,41 +11,71 @@ redirect_from:
 
 Education
 ======
-* **Ph.D. in Computer Science**, The University of Hong Kong, 2026 - present
-* **M.Sc. in Computer Science**, The University of Hong Kong, 2024 - 2025
+* **Westlake University**, Intelligent Spatial Medicine Lab, 2026.02 - present
+  * Pre-doctoral Researcher / Research Assistant
+  * Supervisor: Prof. Haoyang Li
+* **The University of Hong Kong**, M.Sc. in Computer Engineering and Technology, 2024.08 - 2026.06
   * Supervisor: Prof. Grantham Pang
-* **B.S. in Electrical Engineering and Automation**, Soochow University, 2020 - 2024
+  * Research: PPG & ECG Blood Pressure Prediction
+* **Soochow University**, B.S. in Electrical Engineering and Automation, 2020.09 - 2024.06
   * Supervisor: Prof. Lu Bo
-  * GPA: 3.7/4.0
+  * GPA: 3.7/4.0, Research: Surgical Robotics
 
-Work & Research Experience
+Work Experience
 ======
-* **Research Assistant**, Tongji CDI, 2025.12 - 2026.01
-* **Software Engineer (Intern)**, Tab Next Limited, Hong Kong, 2025.05 - 2025.09
-  * Developed medical AI chatbot system for imaging centers
-  * Designed triangular LLM supervision architecture (~99% accuracy)
-* **Research Assistant**, HKU EEE, 2025.01 - 2025.06
-  * Multimodal blood pressure estimation from PPG and ECG signals (UAT-NET)
+* **Tab Next (HK)** — Algorithm Engineer Intern, 2025.06 - 2025.09
+  * Medical AI chatbot for TST Imaging Center (Qwen-based)
+  * Designed ReAct agent architecture with 7 tool types (business query, appointment management, form analysis, etc.)
+  * CoT reasoning + FAISS vector retrieval for context-aware responses
+  * Fine-tuned with LoRA (SFT + DPO) via LLaMA Factory
+  * Multimodal processing with Qwen2.5VL-7B-Instruct for WhatsApp interactions (+8% stability, +20% efficiency)
+  * vLLM acceleration for multimodal analysis (+70% performance)
+  * Real-time dialogue transcription with Qwen-ASR and Qwen-TTS
 
-Research Interests
+Research Experience
 ======
-* 3D surgical scene reconstruction (NeRF, 3DGS)
-* Multimodal medical AI
-* LLM agent systems and RAG
-* Spatial transcriptomics / computational biology
-* Embodied intelligence
+* **Westlake University**, Intelligent Spatial Medicine Lab, 2025.02 - present
+  * PhD fully funded, joined as core founding member
+  * 3D technology in Spatial Omics: generative AI for cell 3D prediction and modeling
+  * Data pipeline: H&E staining image to spatial omics data mapping (Xenium sequencing)
+
+* **Tongji University CDI**, Research Intern, 2025.12 - 2026.03
+  * Supervisor: Prof. Guo Weiwei
+  * Robot questioning strategy planning based on KCQ encoding from real human dialogues
+  * Conducted 24-group 1v1 user experiments (result-oriented vs. process-oriented tasks)
+  * Deployed on Unitree humanoid robot
+  * Paper: *Task Matters: Investigating Human Questioning Behavior in Different Household Service for Learning by Asking Robots* (in progress)
+
+Projects
+======
+* **Continuum Robot for Intestinal Tract** (2021.09 - 2022.06)
+  * 6-stepper-motor FTL precision testing via Raspberry Pi + STM32
+  * LiDAR SLAM + ROS autonomous navigation and obstacle avoidance
+
+* **Autonomous Driving Digital Twin: 3DGS + CARLA/Autoware** (2025.10 - present)
+  * Image → COLMAP → 3D Gaussian Splatting reconstruction pipeline
+  * gsplat-based training with PSNR/SSIM/LPIPS evaluation
+  * CARLA simulation with vehicle, pedestrian, multi-sensor deployment
+  * Digital twin scene for Autoware co-simulation
+
+* **GGJ2026 — Maze Mask** (2026.01)
+  * Multiplayer online pixel-art game at Global Game Jam
+  * React + Vite + TypeScript frontend, Node.js backend
+  * [mask.colanns.me](https://mask.colanns.me)
 
 Skills
 ======
-* **Languages**: Python, C++
-* **Deep Learning**: PyTorch, TensorFlow/Keras
-* **3D Vision**: NeRF, 3DGS, SLAM
-* **LLM/Agent**: RAG, LangChain, Agent frameworks, MCP
-* **Hardware**: STM32, Keil
-* **Tools**: Docker, Git, Linux
+* **Languages**: Python, C++/C, Full-stack development
+* **Frameworks**: PyTorch, TensorFlow, MATLAB, LLM/VLM, ROS, 3D (NeRF, 3DGS)
+* **Tools**: Docker, Git, Linux, SLAM, STM32, Keil
 
-Publications
+Honors
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Soochow University Annual Diligence Star (2024)
+* 1 first-author utility model patent, 3 co-authored patents
+* 3rd Prize, 14th Lanqiao Cup Jiangsu Province (Embedded Design)
+
+Open Source & Community
+======
+* Technical blog: 30+ posts, 13,000+ total views
+* Weekly ArXiv paper digest via Feishu during internship

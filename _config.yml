@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Yanqing Shi"
 title_separator          : "-"
 name                     : &name "Yanqing Shi (施延庆)"
-description              : &description "PhD student at HKU | 3D Perception, Surgical AI, Multimodal Learning"
+description              : &description "Pre-doctoral Researcher at Westlake University | Spatial Omics, 3D Perception, Multimodal AI"
 url                      : https://leoyanqing.github.io
 baseurl                  : ""
 repository               : "LeoYANQING/LeoYANQING.github.io"
@@ -22,12 +22,12 @@ repository               : "LeoYANQING/LeoYANQING.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "avatar_web.jpg"
   name             : "Yanqing Shi (施延庆)"
   pronouns         :
-  bio              : "PhD Student @ HKU | 3D Perception, Surgical AI, Multimodal Learning"
-  location         : "Hong Kong"
-  employer         : "The University of Hong Kong"
+  bio              : "Pre-doctoral Researcher | Spatial Omics, 3D Perception, Multimodal AI"
+  location         : "Hangzhou, China"
+  employer         : "Westlake University"
   uri              :
   email            : "shiyanqing8@gmail.com"
 
