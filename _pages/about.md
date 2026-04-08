@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm **Yanqing Shi (施延庆)**.
+Hi! I'm **Leo Sin (施延庆)**.
 
-I am a pre-doctoral researcher at [Westlake University](https://www.westlake.edu.cn/), Intelligent Spatial Medicine Lab, supervised by [Prof. Haoyang Li](https://www.westlake.edu.cn/). I received my M.Sc. in Computer Engineering from [The University of Hong Kong](https://www.hku.hk/) (supervised by [Prof. Grantham Pang](https://www.eee.hku.hk/~gpang/)) and my B.S. in Electrical Engineering from [Soochow University](http://www.suda.edu.cn/) (supervised by Prof. Lu Bo).
+I am a visiting student at [Westlake University](https://www.westlake.edu.cn/), Intelligent Spatial Medicine Lab, supervised by [Prof. Haoyang Li](https://www.westlake.edu.cn/). I received my M.Sc. in Computer Engineering from [The University of Hong Kong](https://www.hku.hk/) (supervised by [Prof. Grantham Pang](https://www.eee.hku.hk/~gpang/)) and my B.S. in Electrical Engineering from [Soochow University](http://www.suda.edu.cn/) (supervised by Prof. Lu Bo).
 
 My research focuses on **3D perception for surgical and biomedical scenes**, **spatial omics**, and **multimodal AI**. I am particularly interested in applying generative AI and 3D reconstruction (NeRF/3DGS) to medical imaging and spatial transcriptomics.
 
@@ -17,7 +17,7 @@ My research focuses on **3D perception for surgical and biomedical scenes**, **s
 
 ## News
 
-- **2026.02** Joined Westlake University as pre-doctoral researcher (PhD fully funded).
+- **2026.02** Joined Westlake University as visiting student.
 - **2026.01** Built *Maze Mask* at Global Game Jam 2026 — [mask.colanns.me](https://mask.colanns.me).
 - **2025.12** Started research internship at Tongji University CDI on robot questioning strategies.
 - **2025.10** Working on autonomous driving digital twin with 3DGS + CARLA/Autoware.

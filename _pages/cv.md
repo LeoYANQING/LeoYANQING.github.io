@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * **Westlake University**, Intelligent Spatial Medicine Lab, 2026.02 - present
-  * Pre-doctoral Researcher / Research Assistant
+  * Visiting Student
   * Supervisor: Prof. Haoyang Li
 * **The University of Hong Kong**, M.Sc. in Computer Engineering and Technology, 2024.08 - 2026.06
   * Supervisor: Prof. Grantham Pang
@@ -35,7 +35,7 @@ Work Experience
 Research Experience
 ======
 * **Westlake University**, Intelligent Spatial Medicine Lab, 2025.02 - present
-  * PhD fully funded, joined as core founding member
+  * Visiting student, joined as core founding member
   * 3D technology in Spatial Omics: generative AI for cell 3D prediction and modeling
   * Data pipeline: H&E staining image to spatial omics data mapping (Xenium sequencing)
 

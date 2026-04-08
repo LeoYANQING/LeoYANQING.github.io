@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Yanqing Shi"
+title                    : "Leo Sin"
 title_separator          : "-"
-name                     : &name "Yanqing Shi (施延庆)"
-description              : &description "Pre-doctoral Researcher at Westlake University | Spatial Omics, 3D Perception, Multimodal AI"
+name                     : &name "Leo Sin (施延庆)"
+description              : &description "Visiting Student at Westlake University | Spatial Omics, 3D Perception, Multimodal AI"
 url                      : https://leoyanqing.github.io
 baseurl                  : ""
 repository               : "LeoYANQING/LeoYANQING.github.io"
@@ -23,9 +23,9 @@ repository               : "LeoYANQING/LeoYANQING.github.io"
 author:
   # Biographic information
   avatar           : "avatar_web.jpg"
-  name             : "Yanqing Shi (施延庆)"
+  name             : "Leo Sin (施延庆)"
   pronouns         :
-  bio              : "Pre-doctoral Researcher | Spatial Omics, 3D Perception, Multimodal AI"
+  bio              : "Visiting Student | Spatial Omics, 3D Perception, Multimodal AI"
   location         : "Hangzhou, China"
   employer         : "Westlake University"
   uri              :

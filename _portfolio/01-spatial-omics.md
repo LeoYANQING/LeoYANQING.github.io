@@ -8,4 +8,4 @@ Core research at Westlake University, Intelligent Spatial Medicine Lab (2025.02 
 
 - 3D technology applied to Spatial Omics: generative AI for cell 3D prediction and modeling
 - Data pipeline: H&E staining image to spatial omics data mapping under Xenium sequencing
-- Joined as core founding member with full PhD scholarship
+- Joined as visiting student and core founding member
