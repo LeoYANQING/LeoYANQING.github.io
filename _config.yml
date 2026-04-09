@@ -74,9 +74,10 @@ author:
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
+  xiaohongshu      : "https://www.xiaohongshu.com/user/profile/5f266c0b000000000100159b" # URL
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
+  zhihu            : "--80-25-63-93" # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -147,6 +148,9 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - https://github.com/LeoYANQING
+    - https://www.zhihu.com/people/--80-25-63-93
+    - https://www.xiaohongshu.com/user/profile/5f266c0b000000000100159b
 
 
 # Analytics
