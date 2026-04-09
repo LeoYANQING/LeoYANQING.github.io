@@ -13,13 +13,18 @@ I am a visiting student at [Westlake University](https://www.westlake.edu.cn/), 
 
 My research focuses on **3D perception for surgical and biomedical scenes**, **spatial omics**, and **multimodal AI**. I am particularly interested in applying generative AI and 3D reconstruction methods such as NeRF and 3DGS to medical imaging and spatial transcriptomics.
 
-**Research Interests**: Spatial Omics, 3D Reconstruction (NeRF/3DGS), Surgical Scene Analysis, Multimodal Medical AI, Embodied Intelligence, LLM Agent Systems
+**Research Interests**: Spatial Omics, 3D Reconstruction (NeRF/3DGS), Multimodal Medical AI, Embodied Intelligence, LLM Agent Systems
 
-## Tech Writing & Outreach
+## Tech Writing & Open Source
 
 I consistently publish technical blogs and workflow notes on [Zhihu](https://www.zhihu.com/people/--80-25-63-93) and [Xiaohongshu](https://www.xiaohongshu.com/user/profile/5f266c0b000000000100159b). Across platforms, I currently have around **130 followers** and more than **18,000 total reads**.
 
 My recent posts focus on practical AI systems, agent engineering, and research workflows. One representative article is [*AI Workflow Pipeline*](https://zhuanlan.zhihu.com/p/2023172833434502245), where I summarize how to structure multi-stage AI workflows for real-world development.
+
+I also maintain and open-source several research and agent-system projects:
+
+- [**LogicVerse**](https://github.com/LeoYANQING/LogicVerse): a lightweight and highly decoupled LLM agent framework featuring multi-source configuration, dynamic model factory design, Meta-Agent routing, and a hot-pluggable skill ecosystem.
+- [**AskThenRearrange**](https://github.com/LeoYANQING/AskThenRearrange): an embodied-agent project on robot questioning strategy planning based on KCQ encoding from real human dialogues, validated through user studies and deployed on a Unitree humanoid robot.
 
 ## News
 
