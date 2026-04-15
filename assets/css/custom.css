@@ -6,12 +6,12 @@
 }
 
 .page__hero--overlay.page__hero--landing .wrapper {
-  min-height: clamp(480px, 72vh, 760px);
+  min-height: calc(100vh - 3.5rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.25rem;
   text-align: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -31,14 +31,28 @@
 }
 
 .page__hero--overlay.page__hero--landing .page__title {
-  font-size: clamp(3rem, 8vw, 5.8rem);
+  font-size: clamp(2.6rem, 6.6vw, 4.9rem);
   line-height: 1.02;
   letter-spacing: 0.04em;
 }
 
 .page__hero--overlay.page__hero--landing .page__lead {
-  font-size: clamp(1.05rem, 2.5vw, 1.55rem);
-  line-height: 1.7;
+  font-size: clamp(1.45rem, 3vw, 2.1rem);
+  line-height: 1.55;
+}
+
+.main--landing {
+  margin-top: 0;
+}
+
+@media (min-width: 1024px) {
+  .main--landing .sidebar--landing {
+    position: static;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    padding-top: 0;
+  }
 }
 
 .project-row {
@@ -138,7 +152,7 @@
   }
 
   .page__hero--overlay.page__hero--landing .wrapper {
-    min-height: 58vh;
+    min-height: calc(100vh - 4rem);
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
@@ -147,6 +161,11 @@
   .page__hero--overlay.page__hero--landing .page__lead {
     width: min(92vw, 30rem);
     padding: 0.85rem 1rem;
+  }
+
+  .page__hero--overlay.page__hero--landing .page__lead {
+    font-size: clamp(1.2rem, 5vw, 1.55rem);
+    line-height: 1.5;
   }
 
   .project-row {
