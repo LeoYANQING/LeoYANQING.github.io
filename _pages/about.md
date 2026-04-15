@@ -12,7 +12,7 @@ redirect_from:
   - /about.html
 ---
 
-I am **Leo Sin (施延庆)**, a visiting student at [Westlake University](https://www.westlake.edu.cn/), Intelligent Spatial Medicine Lab, supervised by [Prof. Haoyang Li](https://www.westlake.edu.cn/). I received my M.S. in Computer Engineering from [The University of Hong Kong](https://www.hku.hk/) (supervised by [Prof. Grantham Pang](https://www.eee.hku.hk/~gpang/)) and my B.S. in Electrical Engineering from [Soochow University](http://www.suda.edu.cn/) (supervised by Prof. Lu Bo).
+I am **Leo Sin (施延庆)**, a visiting student at [Westlake University](https://www.westlake.edu.cn/), Intelligent Spatial Medicine Lab, supervised by [Prof. Haoyang Li](https://www.westlake.edu.cn/). I received my M.S. in Computer Engineering from [The University of Hong Kong](https://www.hku.hk/) (supervised by [Prof. Grantham Pang](https://www.eee.hku.hk/~gpang/)) and my B.S. in Electrical Engineering from [Soochow University](https://www.suda.edu.cn/) (supervised by Prof. Lu Bo).
 
 My research focuses on **3D perception for surgical and biomedical scenes**, **spatial omics**, and **multimodal AI**. I am particularly interested in applying generative AI and 3D reconstruction methods such as NeRF and 3DGS to medical imaging and spatial transcriptomics.
 
@@ -107,6 +107,25 @@ I also maintain and open-source several research and agent-system projects:
       <span>COLMAP</span>
       <span>CARLA</span>
       <span>Autoware</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-row">
+  <div class="project-img">
+    <img src="/images/projects/maze_mask_cover.svg" alt="Maze Mask Game Cover">
+  </div>
+  <div class="project-text">
+    <h3>Maze Mask - GGJ2026 Multiplayer Pixel Game</h3>
+    <div class="project-meta">Global Game Jam 2026 · 2026.01.29 - 2026.01.31</div>
+    <p>Built a multiplayer online pixel-art game centered on mask power-ups and coin grabbing during Global Game Jam 2026, with contributions in map design, gameplay planning, and mask feature implementation.</p>
+    <a href="https://mask.colanns.me" class="project-link">Play Online</a>
+    <div class="project-tags">
+      <span>Game Jam</span>
+      <span>Pixel Art</span>
+      <span>Multiplayer</span>
+      <span>React</span>
+      <span>TypeScript</span>
     </div>
   </div>
 </div>

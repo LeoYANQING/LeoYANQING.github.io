@@ -2,6 +2,7 @@
 title: "Maze Mask — GGJ2026"
 excerpt: "Multiplayer online pixel-art coin-grabbing game built at Global Game Jam 2026.<br/>"
 collection: portfolio
+link: https://mask.colanns.me
 ---
 
 Global Game Jam 2026 (2026.01.29 - 2026.01.31).
