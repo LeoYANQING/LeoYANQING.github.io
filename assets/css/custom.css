@@ -1,5 +1,46 @@
 /* Lightweight styles for homepage sections while keeping the default academicpages look */
 
+.page__hero--overlay.page__hero--landing {
+  margin-bottom: 3rem;
+  background-position: center center;
+}
+
+.page__hero--overlay.page__hero--landing .wrapper {
+  min-height: clamp(480px, 72vh, 760px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.page__hero--overlay.page__hero--landing .page__title,
+.page__hero--overlay.page__hero--landing .page__lead {
+  margin: 0;
+  width: min(92vw, 44rem);
+  padding: 0.9rem 1.4rem;
+  color: #1f120d;
+  text-shadow: none;
+  background: rgba(250, 242, 233, 0.62);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 18px 48px rgba(49, 24, 14, 0.16);
+}
+
+.page__hero--overlay.page__hero--landing .page__title {
+  font-size: clamp(3rem, 8vw, 5.8rem);
+  line-height: 1.02;
+  letter-spacing: 0.04em;
+}
+
+.page__hero--overlay.page__hero--landing .page__lead {
+  font-size: clamp(1.05rem, 2.5vw, 1.55rem);
+  line-height: 1.7;
+}
+
 .project-row {
   display: flex;
   align-items: flex-start;
@@ -92,6 +133,22 @@
 }
 
 @media (max-width: 768px) {
+  .page__hero--overlay.page__hero--landing {
+    margin-bottom: 2rem;
+  }
+
+  .page__hero--overlay.page__hero--landing .wrapper {
+    min-height: 58vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .page__hero--overlay.page__hero--landing .page__title,
+  .page__hero--overlay.page__hero--landing .page__lead {
+    width: min(92vw, 30rem);
+    padding: 0.85rem 1rem;
+  }
+
   .project-row {
     flex-direction: column;
   }
