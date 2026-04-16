@@ -12,7 +12,7 @@ redirect_from:
   - /about.html
 ---
 
-I am **Leo Sin (施延庆)**, a visiting student at [Westlake University](https://www.westlake.edu.cn/), Intelligent Spatial Medicine Lab, supervised by [Prof. Haoyang Li](https://www.westlake.edu.cn/). I received my M.S. in Computer Engineering from [The University of Hong Kong](https://www.hku.hk/) (supervised by [Prof. Grantham Pang](https://www.eee.hku.hk/~gpang/)) and my B.S. in Electrical Engineering from [Soochow University](https://www.suda.edu.cn/) (supervised by Prof. Lu Bo).
+I am **Leo Sin (施延庆)**, a visiting student at [Westlake University](https://www.westlake.edu.cn/), Intelligent Spatial Medicine Lab, supervised by [Prof. Haoyang Li](https://www.westlake.edu.cn/). I received my M.S. in Computer Engineering from [The University of Hong Kong](https://www.hku.hk/) (supervised by [Prof. Grantham Pang](https://www.eee.hku.hk/~gpang/)) and my B.S. in Electrical Engineering from [Soochow University](https://www.suda.edu.cn/) (supervised by [Prof. Lu Bo](https://lu-bo.github.io/)).
 
 My research focuses on **3D perception for surgical and biomedical scenes**, **spatial omics**, and **multimodal AI**. I am particularly interested in applying generative AI and 3D reconstruction methods such as NeRF and 3DGS to medical imaging and spatial transcriptomics.
 

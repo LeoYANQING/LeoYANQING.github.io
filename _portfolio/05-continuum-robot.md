@@ -4,7 +4,7 @@ excerpt: "6-DOF continuum robot with STM32 + Raspberry Pi control and LiDAR SLAM
 collection: portfolio
 ---
 
-Research at Soochow University (2021.09 - 2022.06), supervised by Prof. Lu Bo.
+Research at Soochow University (2021.09 - 2022.06), supervised by [Prof. Lu Bo](https://lu-bo.github.io/).
 
 - Built 6-stepper-motor continuum robot platform with FTL precision testing via Raspberry Pi + STM32
 - Implemented scene reconstruction and autonomous obstacle avoidance using LiDAR SLAM + ROS

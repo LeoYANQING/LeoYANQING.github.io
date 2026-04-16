@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Maze Mask project cover</title>
+  <desc id="desc">A stylized cover for the Maze Mask project with a maze-like background and bold title.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1f33"/>
+      <stop offset="50%" stop-color="#304b63"/>
+      <stop offset="100%" stop-color="#5b7f4c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <path d="M80 110h220v40H120v70h120v40H120v90h170v40H80V110zm290 0h170v40H410v70h95v40h-95v130h-40V110zm230 0h120c58 0 95 32 95 81 0 31-17 55-46 68l62 131h-46l-55-121h-90v121h-40V110zm40 40v79h78c41 0 61-14 61-40 0-27-21-39-64-39h-75z" fill="none" opacity=".22" stroke="#ffffff" stroke-width="10"/>
+  <g fill="none" opacity=".18" stroke="#f5f1de" stroke-width="8">
+    <path d="M66 74h188v44H110v92h96v44H110v138h156"/>
+    <path d="M314 74h194v44H358v92h116v44H358v172"/>
+    <path d="M546 74h146c76 0 122 41 122 103 0 37-17 69-48 88l58 161"/>
+    <path d="M730 265h-96v161"/>
+    <path d="M82 426h640"/>
+    <path d="M82 426V74h636"/>
+  </g>
+  <circle cx="660" cy="138" r="54" fill="#f2c14e" opacity=".94"/>
+  <path d="M632 160c10-20 20-32 30-32s20 12 30 32" fill="none" stroke="#1f2438" stroke-linecap="round" stroke-width="12"/>
+  <circle cx="646" cy="138" r="8" fill="#1f2438"/>
+  <circle cx="674" cy="138" r="8" fill="#1f2438"/>
+  <rect x="86" y="338" width="444" height="92" rx="20" fill="#111826" fill-opacity=".72"/>
+  <text x="120" y="392" fill="#f8f4e8" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="60" font-weight="700" letter-spacing="4">MAZE MASK</text>
+  <text x="122" y="432" fill="#d8e3cf" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="22" letter-spacing="3">GLOBAL GAME JAM 2026</text>
+</svg>

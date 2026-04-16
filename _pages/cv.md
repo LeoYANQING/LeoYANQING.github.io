@@ -18,7 +18,7 @@ Education
   * Supervisor: Prof. Grantham Pang
   * Research: PPG & ECG Blood Pressure Prediction
 * **Soochow University**, B.S. in Electrical Engineering and Automation, 2020.09 - 2024.06
-  * Supervisor: Prof. Lu Bo
+  * Supervisor: [Prof. Lu Bo](https://lu-bo.github.io/)
   * GPA: 3.7/4.0, Research: Surgical Robotics
 
 Work Experience
